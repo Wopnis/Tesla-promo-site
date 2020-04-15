@@ -6,4 +6,13 @@ $(function(){
         dots: true,
         cssEase: 'linear'
     });
+
+    $('.header-btn').on('click', function(){
+        $('.menu').addClass('active');
+    });
+
+    $('.close-btn').on('click', function(){
+        $('.menu').removeClass('active');
+    });
+
 });
